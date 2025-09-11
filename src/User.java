@@ -2,7 +2,7 @@ public class User {
     private final String fullName;
     private final String email;
     private final String IIN;
-    private final String number;
+    private final String phoneNumber;
     private final String password;
 
     public User(Builder builder) {
@@ -10,7 +10,7 @@ public class User {
         this.password = builder.password;
         this.email = builder.email;
         this.IIN = builder.IIN;
-        this.number = builder.number;
+        this.phoneNumber = builder.phoneNumber;
 
     }
 
@@ -19,7 +19,7 @@ public class User {
         private String password;
         private String email;
         private String IIN;
-        private String number;
+        private String phoneNumber;
 
         public Builder setFullName(String fullName) {
             if (fullName == null || fullName.isEmpty()) {
@@ -49,11 +49,11 @@ public class User {
             this.IIN = IIN;
             return this;
         }
-        public Builder setNumber(String number) {
-            if (number == null || !number.matches("(\\+7|8)\\d{10}")) {
+        public Builder setPhoneNumber(String phoneNumber) {
+            if (phoneNumber == null || !phoneNumber.matches("(\\+7|8)\\d{10}")) {
                 throw new IllegalArgumentException("Invalid phone number");
             }
-            this.number = number;
+            this.phoneNumber = phoneNumber;
             return this;
         }
         public User build() {
@@ -67,7 +67,7 @@ public class User {
     public String toString() {
         return "Full Name = " + fullName + "\n" +
                 "IIN: " + IIN + "\n" +
-                "Number: " + number + "\n" +
+                "Number: " + phoneNumber + "\n" +
                 "Email = " + email + "\n" +
                 "Password = i can't display the password";
     }

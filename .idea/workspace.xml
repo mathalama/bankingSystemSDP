@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fdf6ba62-ea96-43bc-9cbf-946d9667ce03" name="Changes" comment="" />
+    <list default="true" id="fdf6ba62-ea96-43bc-9cbf-946d9667ce03" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BankApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BankApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/User.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,8 +38,9 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "Aikyn",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/aiqyn/Documents/projects/projects_september/bankingSystem",
     "node.js.detected.package.eslint": "true",
@@ -67,7 +72,8 @@
       <workItem from="1757510554194" duration="1201000" />
       <workItem from="1757516573693" duration="61000" />
       <workItem from="1757516643256" duration="4999000" />
-      <workItem from="1757521748756" duration="13000" />
+      <workItem from="1757521748756" duration="274000" />
+      <workItem from="1757559287765" duration="957000" />
     </task>
     <servers />
   </component>

@@ -4,7 +4,7 @@ public class BankApplication {
                 .setFullName("Aikyn")
                 .setEmail("aikyn@mathalama.dev")
                 .setIIN("112233888999")
-                .setNumber("87771238888")
+                .setPhoneNumber("87771238888")
                 .setPassword("math123lama")
                 .build();
         System.out.println(aikyn);
