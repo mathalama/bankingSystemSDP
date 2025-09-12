@@ -1,8 +1,8 @@
 public class User {
     private final String fullName;
+    private final String phoneNumber;
     private final String email;
     private final String IIN;
-    private final String phoneNumber;
     private final String password;
 
     public User(Builder builder) {
@@ -11,40 +11,39 @@ public class User {
         this.email = builder.email;
         this.IIN = builder.IIN;
         this.phoneNumber = builder.phoneNumber;
-
     }
 
     public static class Builder {
         private String fullName;
-        private String password;
+        private String phoneNumber;
         private String email;
         private String IIN;
-        private String phoneNumber;
+        private String password;
 
         public Builder setFullName(String fullName) {
             if (fullName == null || fullName.isEmpty()) {
-                throw new NullPointerException("Name cannot be empty");
+                throw new IllegalArgumentException("Name cannot be empty");
             }
             this.fullName = fullName;
             return this;
         }
         public Builder setEmail(String email) {
             if (email == null || !email.contains("@")) {
-                throw new NullPointerException("Invalid email");
+                throw new IllegalArgumentException("Invalid email");
             }
             this.email = email;
             return this;
         }
         public Builder setPassword(String password) {
             if (password == null || password.isEmpty()) {
-                throw new NullPointerException("Password cannot be empty");
+                throw new IllegalArgumentException("Password cannot be empty");
             }
             this.password = password;
             return this;
         }
         public Builder setIIN(String IIN) {
-            if (IIN != null && IIN.isEmpty() || !IIN.chars().allMatch(Character::isDigit) || IIN.length() != 12) {
-                throw new IllegalArgumentException("Invalid IIN: must contain only numbers");
+            if (IIN == null || !IIN.matches("\\d{12}")) {
+                throw new IllegalArgumentException("Invalid IIN: must be exactly 12 digits");
             }
             this.IIN = IIN;
             return this;
