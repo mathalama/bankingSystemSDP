@@ -1,8 +1,8 @@
 public class User {
-    private final String fullName;
-    private final String email;
+    private String fullName;
+    private String email;
     private final String IIN;
-    private final String password;
+    private String password;
 
     public User(Builder builder) {
         this.fullName = builder.fullName;

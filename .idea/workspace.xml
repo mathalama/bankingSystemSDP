@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fdf6ba62-ea96-43bc-9cbf-946d9667ce03" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/telegram_bot/.env" beforeDir="false" afterPath="$PROJECT_DIR$/telegram_bot/.env" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,6 +81,12 @@
       <workItem from="1757669041005" duration="2065000" />
       <workItem from="1757691584759" duration="1607000" />
       <workItem from="1757705197377" duration="137000" />
+      <workItem from="1757810736276" duration="477000" />
+      <workItem from="1757859352185" duration="229000" />
+      <workItem from="1758092186161" duration="1007000" />
+      <workItem from="1758131512252" duration="2636000" />
+      <workItem from="1758140725520" duration="1101000" />
+      <workItem from="1758175016796" duration="2095000" />
     </task>
     <servers />
   </component>
